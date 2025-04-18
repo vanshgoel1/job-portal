@@ -12,10 +12,10 @@ const Footer = () => {
                 <div className="text-xl font-semibold">JobHook</div>
             </div>
             <div className="text-sm text-mine-shaft-300">Job portal with user profiles, skill updates, certifications, work experience and admin job postings.</div>
-            <div className="flex gap-3 text-bright-sun-400 [&>a]:bg-mine-shaft-900 [&>a]:p-2 [&>a]:rounded-full [&>a]:cursor-pointer hover:[&>a]:bg-mine-shaft-700">
-                <a href="https://www.instagram.com/code.marshal_/"><IconBrandInstagram /></a>
-                <a href="https://t.me/code_Marshal"><IconBrandTelegram /></a>
-                <a href="https://www.youtube.com/@Code.Marshal"><IconBrandYoutube /></a>
+            <div className="flex gap-3 text-bright-sun-400 [&>div]:bg-mine-shaft-900 [&>div]:p-2 [&>div]:rounded-full [&>div]:cursor-pointer hover:[&>div]:bg-mine-shaft-700">
+                <div><IconBrandInstagram /></div>
+                <div><IconBrandTelegram /></div>
+                <div><IconBrandYoutube /></div>
             </div>
         </div>
         {
@@ -29,7 +29,7 @@ const Footer = () => {
     </div>
     <Divider/>
     <div data-aos="flip-left"  data-aos-offset="0" className="font-medium text-center p-5">
-        Designed & Developed By <a className="text-bright-sun-400 hover:underline font-semibold " href="https://github.com/Code-Mars">Chandrabhan Maurya</a>
+        Designed & Developed By <span className="text-bright-sun-400 font-semibold ">Vansh Goel</span>
     </div>
     </div>:<></>
 }
