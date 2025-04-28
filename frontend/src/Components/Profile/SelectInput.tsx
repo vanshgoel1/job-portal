@@ -30,7 +30,7 @@ const SelectInput=(props:any)=> {
   return (
     <Combobox
       store={combobox}
-      withinPortal={false}
+      // withinPortal={false}
       onOptionSubmit={(val) => {
         if (val === '$create') {
           setData((current) => [...current, search]);
